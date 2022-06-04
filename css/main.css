@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  width: 100%;
+  font-family: 'Play', sans-serif;
+  background-image: url(../Imagenes/body/fondodelapantalla.jpg); }
+  body header {
+    position: fixed;
+    z-index: +3;
+    margin: 0%;
+    top: 0;
+    width: 100%;
+    background-color: #060713; }
+    body header nav .background-header {
+      background-color: #0d0f26;
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+    body header nav a .btn:hover {
+      color: black;
+      background-color: #d8c9e8; }
+    body header nav a .btn {
+      color: #d8c9e8;
+      border: 1px solid #653d8f; }
+  body main h1 {
+    font-size: 4rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #d8c9e8; }
+  body main h2 {
+    font-size: 4rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #d8c9e8; }
+  body main .carouselmodify {
+    z-index: -1;
+    padding: 1px;
+    margin-top: 120px; }
+  body main .fondo-1 {
+    margin-bottom: 0px; }
+  body main .fondo-2 {
+    background-color: #0d0f26;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10px; }
+  body main #streamers {
+    padding: 150px; }
+  body main .contenedor-img-streamers {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap; }
+  body main .img-streamers {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 20px;
+    border: 2px solid #d8c9e8; }
+  body main .img-streamers:hover {
+    transform: scale(1.1);
+    transition: all 0.2s; }
+  body main #esport {
+    padding: 150px; }
+  body main .contenedor-img-juego {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+  body main .img-juegos {
+    width: 370px;
+    height: 215px;
+    margin: 100px 20px;
+    border-radius: 25px;
+    border: 2px solid #0d0f26; }
+  body main .contenedor-img-jugadores {
+    width: 30%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; }
+  body main .img-jugadores {
+    border: 5px solid #0d0f26;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    margin: 20px; }
+  body main .img-jugadores:hover {
+    transform: scale(1.1);
+    transition: all 0.2s; }
+  body main #gaminghouse {
+    padding: 150px; }
+  body main .gaminghouse {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px; }
+  body main .iframe {
+    margin: 20px;
+    border-radius: 25px;
+    border: 2px solid #d8c9e8; }
+  body main .iframe:hover {
+    transform: scale(1.1);
+    transition: all 0.2s; }
+  body main #partners {
+    padding: 150px; }
+  body main .contenedor-img-partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 40px; }
+  body main .columna1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  body main .columna2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  body main .img-partners {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 25px;
+    border: 2px solid #0d0f26; }
+  body main .img-partners:hover {
+    transform: scale(1.1);
+    transition: all 0.2s; }
+  body footer {
+    background-color: #060713; }
+    body footer section .nuestras-redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      bottom: 0; }
+    body footer section .contenedor-img-nuestras-redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      justify-content: center; }
+    body footer section .img-nuestras-redes {
+      width: 60%;
+      margin: 10px;
+      display: flex;
+      justify-content: center; }
+    body footer section .img-nuestras-redes:hover {
+      transform: scale(1.1);
+      transition: all 0.2s; }
+    body footer section .copyright {
+      display: flex;
+      width: 100%;
+      justify-content: center; }
+    body footer section p {
+      display: flex;
+      color: #d8c9e8; }
