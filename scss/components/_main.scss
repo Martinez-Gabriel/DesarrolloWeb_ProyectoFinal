@@ -1,21 +1,17 @@
-@import '../base/listas';
-
 //AGREGO ESTILOS AL MAIN
 main{
     h1{
+        @include flexbox-center;
+        flex-wrap: wrap;
         font-size: 4rem;
         padding: 10px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         color: nth($colores, 5);
     }
     h2{
+        @include flexbox-center;
+        flex-wrap: wrap;
         font-size: 4rem;
         padding: 10px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         color: nth($colores, 5);
     }
     .fondo-1{

@@ -1,15 +1,11 @@
-@import '../base/listas';
-
 //AGREGO ESTILOS A LA SECCION GAMING HOUSE
 #gaminghouse{
     padding: 150px;
 }
 .gaminghouse{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    @include flexbox-center;
     flex-wrap: wrap;
+    align-content: center;
     padding: 40px;
 }
 .iframe{

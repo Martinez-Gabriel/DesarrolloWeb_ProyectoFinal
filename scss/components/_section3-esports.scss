@@ -1,16 +1,12 @@
-@import '../base/listas';
-
 //AGREGO ESTILOS A LA SECCION EQUIPOS DE E-SPORT
 #esport{
     padding: 150px;
 }
 .contenedor-img-juego {
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    @include flexbox-center;
     flex-wrap: wrap;
+    align-content: center;
+    margin: 40px;
 }
 .img-juegos {
     width: 370px;
@@ -20,12 +16,11 @@
     border: 2px solid nth($colores, 2);
 }      
 .contenedor-img-jugadores {
+    @include flexbox-center;
+    flex-wrap: wrap;
+    align-content: center;
     width: 30%;
     margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
 }
 .img-jugadores {
     border: 5px solid nth($colores, 2);

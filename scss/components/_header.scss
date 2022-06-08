@@ -1,5 +1,3 @@
-@import '../base/listas';
-
 //AGREGO ESTILOS AL HEADER
 header{
      position: fixed;
@@ -13,8 +11,7 @@ header{
          .background-header{
              background-color: nth($colores, 3);
              width: 100%;
-             display: flex;
-             justify-content: center;
+             @include flexbox-center;
          }
          a{
             .btn:hover{
@@ -22,9 +19,9 @@ header{
                  background-color: nth($colores, 4)
              }
             .btn{
-               color: nth($colores, 5);
+                color: nth($colores, 5);
                 border: 1px solid nth($colores, 4);
-             }
+            }
          }
      } 
  }

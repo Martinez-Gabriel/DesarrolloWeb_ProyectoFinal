@@ -1,14 +1,10 @@
-@import '../base/listas';
-
 //AGREGO ESTILOS A LA SECCION STREAMERS
 #streamers{
     padding: 150px;
 }
 .contenedor-img-streamers{
-    display: flex;
-    justify-content: center;
+    @include flexbox-center;
     align-content: center;
-    align-items: center;
     margin: 40px;
     flex-wrap: wrap;
 }

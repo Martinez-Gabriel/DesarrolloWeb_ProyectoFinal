@@ -20,7 +20,8 @@ header {
     background-color: #090a11;
     width: 100%;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
   header nav a .btn:hover {
     color: black;
     background-color: #653d8f; }
@@ -29,19 +30,21 @@ header {
     border: 1px solid #653d8f; }
 
 main h1 {
-  font-size: 4rem;
-  padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  font-size: 4rem;
+  padding: 10px;
   color: #d8c9e8; }
 
 main h2 {
-  font-size: 4rem;
-  padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  font-size: 4rem;
+  padding: 10px;
   color: #d8c9e8; }
 
 main .fondo-1 {
@@ -53,7 +56,7 @@ main .fondo-2 {
   background-attachment: fixed;
   margin-bottom: 10px; }
 
-.carouselmodify {
+.carouselstyle {
   z-index: -1;
   padding: 1px;
   margin-top: 120px; }
@@ -64,8 +67,8 @@ main .fondo-2 {
 .contenedor-img-streamers {
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
+  align-content: center;
   margin: 40px;
   flex-wrap: wrap; }
 
@@ -84,12 +87,12 @@ main .fondo-2 {
   padding: 150px; }
 
 .contenedor-img-juego {
-  margin: 40px;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 40px; }
 
 .img-juegos {
   width: 370px;
@@ -99,12 +102,13 @@ main .fondo-2 {
   border: 2px solid #060713; }
 
 .contenedor-img-jugadores {
-  width: 30%;
-  margin: 0px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: center; }
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 30%;
+  margin: 0px; }
 
 .img-jugadores {
   border: 5px solid #060713;
@@ -123,9 +127,9 @@ main .fondo-2 {
 .gaminghouse {
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
   flex-wrap: wrap;
+  align-content: center;
   padding: 40px; }
 
 .iframe {
@@ -142,21 +146,24 @@ main .fondo-2 {
 
 .contenedor-img-partners {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  flex-wrap: wrap;
   padding: 40px; }
 
 .columna1 {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column; }
 
 .columna2 {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column; }
 
 .img-partners {
   width: 200px;
@@ -184,17 +191,21 @@ footer {
     width: 100%;
     justify-content: center; }
   footer section .img-nuestras-redes {
-    width: 60%;
-    margin: 10px;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 10px; }
   footer section .img-nuestras-redes:hover {
     transform: scale(1.1);
     transition: all 0.2s; }
   footer section .copyright {
     display: flex;
-    width: 100%;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
   footer section p {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: #d8c9e8; }
