@@ -1,0 +1,30 @@
+@import '../base/listas';
+
+//AGREGO ESTILOS AL MAIN
+main{
+    h1{
+        font-size: 4rem;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: nth($colores, 5);
+    }
+    h2{
+        font-size: 4rem;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: nth($colores, 5);
+    }
+    .fondo-1{
+        margin-bottom: 0px;
+    }
+    .fondo-2{
+        background-color: nth($colores, 1);
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 10px;
+    }
+}

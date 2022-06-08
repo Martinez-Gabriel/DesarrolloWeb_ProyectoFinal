@@ -1,0 +1,25 @@
+@import '../base/listas';
+
+//AGREGO ESTILOS A LA SECCION STREAMERS
+#streamers{
+    padding: 150px;
+}
+.contenedor-img-streamers{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.img-streamers{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 20px;
+    border: 2px solid nth($colores, 5);
+}
+.img-streamers:hover{
+    transform: scale(1.10);
+    transition: all 0.2s;
+}

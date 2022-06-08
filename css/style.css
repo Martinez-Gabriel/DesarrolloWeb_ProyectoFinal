@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  width: 100%;
+  font-family: 'Play', sans-serif;
+  background-image: url(../Imagenes/body/fondodelapantalla.jpg); }
+
+header {
+  position: fixed;
+  z-index: +3;
+  margin: 0%;
+  top: 0;
+  width: 100%;
+  background-color: #090a11;
+  border-bottom: 1px solid #653d8f; }
+  header nav .background-header {
+    background-color: #090a11;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  header nav a .btn:hover {
+    color: black;
+    background-color: #653d8f; }
+  header nav a .btn {
+    color: #d8c9e8;
+    border: 1px solid #653d8f; }
+
+main h1 {
+  font-size: 4rem;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #d8c9e8; }
+
+main h2 {
+  font-size: 4rem;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #d8c9e8; }
+
+main .fondo-1 {
+  margin-bottom: 0px; }
+
+main .fondo-2 {
+  background-color: #0d0f26;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 10px; }
+
+.carouselmodify {
+  z-index: -1;
+  padding: 1px;
+  margin-top: 120px; }
+
+#streamers {
+  padding: 150px; }
+
+.contenedor-img-streamers {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 40px;
+  flex-wrap: wrap; }
+
+.img-streamers {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  margin: 20px;
+  border: 2px solid #d8c9e8; }
+
+.img-streamers:hover {
+  transform: scale(1.1);
+  transition: all 0.2s; }
+
+#esport {
+  padding: 150px; }
+
+.contenedor-img-juego {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.img-juegos {
+  width: 370px;
+  height: 215px;
+  margin: 100px 20px;
+  border-radius: 25px;
+  border: 2px solid #060713; }
+
+.contenedor-img-jugadores {
+  width: 30%;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; }
+
+.img-jugadores {
+  border: 5px solid #060713;
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
+  margin: 20px; }
+
+.img-jugadores:hover {
+  transform: scale(1.1);
+  transition: all 0.2s; }
+
+#gaminghouse {
+  padding: 150px; }
+
+.gaminghouse {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px; }
+
+.iframe {
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid #d8c9e8; }
+
+.iframe:hover {
+  transform: scale(1.1);
+  transition: all 0.2s; }
+
+#partners {
+  padding: 150px; }
+
+.contenedor-img-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px; }
+
+.columna1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.columna2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.img-partners {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid #060713; }
+
+.img-partners:hover {
+  transform: scale(1.1);
+  transition: all 0.2s; }
+
+footer {
+  background-color: #090a11; }
+  footer section .nuestras-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: 0; }
+  footer section .contenedor-img-nuestras-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center; }
+  footer section .img-nuestras-redes {
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    justify-content: center; }
+  footer section .img-nuestras-redes:hover {
+    transform: scale(1.1);
+    transition: all 0.2s; }
+  footer section .copyright {
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+  footer section p {
+    display: flex;
+    color: #d8c9e8; }

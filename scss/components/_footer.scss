@@ -1,0 +1,41 @@
+@import '../base/listas';
+
+//AGREGO ESTILOS AL FOOTER
+footer{
+    background-color: nth($colores, 3);
+    section{
+        .nuestras-redes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            bottom: 0;
+        }
+        .contenedor-img-nuestras-redes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+        }
+        .img-nuestras-redes{
+            width: 60%;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .img-nuestras-redes:hover{
+            transform: scale(1.10);
+            transition: all 0.2s;
+        }
+        .copyright{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            color: nth($colores, 5);
+        }
+    }
+}

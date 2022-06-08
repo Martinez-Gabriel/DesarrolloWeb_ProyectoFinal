@@ -1,0 +1,30 @@
+@import '../base/listas';
+
+//AGREGO ESTILOS AL HEADER
+header{
+     position: fixed;
+     z-index: +3;
+     margin: 0%;
+     top:0;    
+     width: 100%;
+     background-color: nth($colores, 3);
+     border-bottom: 1px solid nth($colores, 4);
+     nav{
+         .background-header{
+             background-color: nth($colores, 3);
+             width: 100%;
+             display: flex;
+             justify-content: center;
+         }
+         a{
+            .btn:hover{
+                 color: black;
+                 background-color: nth($colores, 4)
+             }
+            .btn{
+               color: nth($colores, 5);
+                border: 1px solid nth($colores, 4);
+             }
+         }
+     } 
+ }
