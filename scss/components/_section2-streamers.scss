@@ -1,21 +1,19 @@
 //AGREGO ESTILOS A LA SECCION STREAMERS
 #streamers{
-    padding: 150px;
+    @include margin-padding (0px,150px);
 }
 .contenedor-img-streamers{
-    @include flexbox-center;
-    align-content: center;
-    margin: 40px;
+    @include flexbox-grid (flex, center, center);
+    @include margin-padding (40px,0px);
     flex-wrap: wrap;
 }
 .img-streamers{
+    @include margin-padding (20px,0px);
     width: 200px;
     height: 200px;
     border-radius: 25px;
-    margin: 20px;
     border: 2px solid nth($colores, 5);
 }
 .img-streamers:hover{
-    transform: scale(1.10);
-    transition: all 0.2s;
+    @extend %animacion;
 }

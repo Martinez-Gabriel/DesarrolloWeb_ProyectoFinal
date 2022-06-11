@@ -1,35 +1,31 @@
 //AGREGO ESTILOS A LA SECCION EQUIPOS DE E-SPORT
 #esport{
-    padding: 150px;
+    @include margin-padding (0px,150px);
 }
 .contenedor-img-juego {
-    @include flexbox-center;
+    @include flexbox-grid (flex, center, center);
+    @include margin-padding (40px,0px);
     flex-wrap: wrap;
-    align-content: center;
-    margin: 40px;
 }
 .img-juegos {
+    @include margin-padding (100px,0px);
     width: 370px;
     height: 215px;
-    margin: 100px 20px;
     border-radius: 25px;
     border: 2px solid nth($colores, 2);
 }      
 .contenedor-img-jugadores {
-    @include flexbox-center;
+    @include flexbox-grid (flex, center, center);;
     flex-wrap: wrap;
-    align-content: center;
     width: 30%;
-    margin: 0px;
 }
 .img-jugadores {
+    @include margin-padding (20px,0px);
     border: 5px solid nth($colores, 2);
     border-radius: 25px;
     width: 100px;
     height: 100px;
-    margin: 20px;
 }
 .img-jugadores:hover{
-    transform: scale(1.10);
-    transition: all 0.2s;
+    @extend %animacion;
 }

@@ -1,17 +1,17 @@
 //AGREGO ESTILOS AL MAIN
 main{
     h1{
-        @include flexbox-center;
+        @include flexbox-grid (flex, center, center);
+        @include margin-padding (0px,10px);
         flex-wrap: wrap;
         font-size: 4rem;
-        padding: 10px;
         color: nth($colores, 5);
     }
     h2{
-        @include flexbox-center;
+        @include flexbox-grid (flex, center, center);
+        @include margin-padding (0px,10px);
         flex-wrap: wrap;
         font-size: 4rem;
-        padding: 10px;
         color: nth($colores, 5);
     }
     .fondo-1{

@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
@@ -9,9 +9,10 @@ body {
   background-image: url(../Imagenes/body/fondodelapantalla.jpg); }
 
 header {
+  margin: 0%;
+  padding: 0px;
   position: fixed;
   z-index: +3;
-  margin: 0%;
   top: 0;
   width: 100%;
   background-color: #090a11;
@@ -33,18 +34,20 @@ main h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0px;
+  padding: 10px;
   flex-wrap: wrap;
   font-size: 4rem;
-  padding: 10px;
   color: #d8c9e8; }
 
 main h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0px;
+  padding: 10px;
   flex-wrap: wrap;
   font-size: 4rem;
-  padding: 10px;
   color: #d8c9e8; }
 
 main .fondo-1 {
@@ -62,42 +65,42 @@ main .fondo-2 {
   margin-top: 120px; }
 
 #streamers {
+  margin: 0px;
   padding: 150px; }
 
 .contenedor-img-streamers {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
   margin: 40px;
+  padding: 0px;
   flex-wrap: wrap; }
 
 .img-streamers {
+  margin: 20px;
+  padding: 0px;
   width: 200px;
   height: 200px;
   border-radius: 25px;
-  margin: 20px;
   border: 2px solid #d8c9e8; }
 
-.img-streamers:hover {
-  transform: scale(1.1);
-  transition: all 0.2s; }
-
 #esport {
+  margin: 0px;
   padding: 150px; }
 
 .contenedor-img-juego {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  margin: 40px; }
+  margin: 40px;
+  padding: 0px;
+  flex-wrap: wrap; }
 
 .img-juegos {
+  margin: 100px;
+  padding: 0px;
   width: 370px;
   height: 215px;
-  margin: 100px 20px;
   border-radius: 25px;
   border: 2px solid #060713; }
 
@@ -106,50 +109,45 @@ main .fondo-2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  align-content: center;
-  width: 30%;
-  margin: 0px; }
+  width: 30%; }
 
 .img-jugadores {
+  margin: 20px;
+  padding: 0px;
   border: 5px solid #060713;
   border-radius: 25px;
   width: 100px;
-  height: 100px;
-  margin: 20px; }
-
-.img-jugadores:hover {
-  transform: scale(1.1);
-  transition: all 0.2s; }
+  height: 100px; }
 
 #gaminghouse {
+  margin: 0px;
   padding: 150px; }
 
 .gaminghouse {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  padding: 40px; }
+  margin: 0px;
+  padding: 40px;
+  flex-wrap: wrap; }
 
 .iframe {
   margin: 20px;
+  padding: 0px;
   border-radius: 25px;
   border: 2px solid #d8c9e8; }
 
-.iframe:hover {
-  transform: scale(1.1);
-  transition: all 0.2s; }
-
 #partners {
+  margin: 0px;
   padding: 150px; }
 
 .contenedor-img-partners {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 40px; }
+  margin: 0px;
+  padding: 40px;
+  flex-wrap: wrap; }
 
 .columna1 {
   display: flex;
@@ -166,15 +164,12 @@ main .fondo-2 {
   flex-direction: column; }
 
 .img-partners {
+  margin: 20px;
+  padding: 0px;
   width: 200px;
   height: 200px;
-  margin: 20px;
   border-radius: 25px;
   border: 2px solid #060713; }
-
-.img-partners:hover {
-  transform: scale(1.1);
-  transition: all 0.2s; }
 
 footer {
   background-color: #090a11; }
@@ -188,17 +183,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    justify-content: center; }
+    width: 100%; }
   footer section .img-nuestras-redes {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    margin: 10px; }
-  footer section .img-nuestras-redes:hover {
-    transform: scale(1.1);
-    transition: all 0.2s; }
+    margin: 10px;
+    padding: 0;
+    width: 60%; }
   footer section .copyright {
     display: flex;
     justify-content: center;
@@ -209,3 +201,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: #d8c9e8; }
+
+.img-streamers:hover, .img-jugadores:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover {
+  transform: scale(1.1);
+  transition: all 0.2s; }
