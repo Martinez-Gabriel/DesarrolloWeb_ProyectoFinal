@@ -1,19 +1,17 @@
 //AGREGO ESTILOS A LA SECCION GAMING HOUSE
 #gaminghouse{
-    padding: 150px;
+    @include margin-padding (0px,150px);;
 }
 .gaminghouse{
-    @include flexbox-center;
+    @include flexbox-grid (flex, center, center);;
+    @include margin-padding (0px,40px);
     flex-wrap: wrap;
-    align-content: center;
-    padding: 40px;
 }
 .iframe{
-    margin: 20px;
+    @include margin-padding (20px,0px);
     border-radius: 25px;
     border: 2px solid nth($colores, 5);
 }
 .iframe:hover{
-    transform: scale(1.10);
-    transition: all 0.2s;
+    @extend %animacion;
 }

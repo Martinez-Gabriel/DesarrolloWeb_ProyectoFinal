@@ -1,5 +1,11 @@
-@mixin flexbox-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@mixin margin-padding ($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin flexbox-grid($display, $justify, $align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
 }
