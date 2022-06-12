@@ -1,0 +1,36 @@
+    <!-- AGREGO META DESCRIPTION -->
+    <meta name="description" content="Somos un equipo de e-sport enfocado en el desarrollo y crecimiento de nuevos jugadores y creadores de contenido en el mundo de la tecnologia/videojuegos">
+
+    <!-- AGREGO 21 KEYWORDS -->
+    <meta name="keywords" content="equipo de e-sport, equipo de gaming, equipo de videojuegos, equipo para creadores de contenido, creadores de contenido, creadores de jugadores profesionales, creadores de profesionales en el mundo gaming, jugar, diversion, aprender, crecer, streamers, gaming house, alojamiento de jugadores, alojamiento de jugadoras, soporte para creadores de contenido, soporte para jugadores de videojuegos, aportando al mundo del gaming, motivando jugadores, motivando jugadoras, motivando creadores de contenido">
+
+    <!-- AGREGO META COPY -->
+    <meta name="copy" content="Proyect-Harcore">
+    
+    <!-- AGREGO META AUTOR -->
+    <meta name="author" content="Gabriel Martinez">
+
+    <!-- AGREGO OPEN GRAPH -->
+    <meta property="og:title" content="PROYECT HARDCORE TEAM | Formando jugadores al maximo nivel">
+    <meta property="og:description" content="Somos un equipo de e-sport enfocado en el desarrollo y crecimiento de nuevos jugadores y creadores de contenido en el mundo de la tecnologia/videojuegos">
+    <meta property="og:locale" content="es_ES">
+   
+    <!-- AGREGO ICONOS CON FAVICOM -->
+    
+    <link rel="proyect-hardcore-icon" sizes="180x180" href="Imagenes/Logo de proyect hardcore/proyect_hardcore_icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagenes/Logo de proyect hardcore/proyect_hardcore_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagenes/Logo de proyect hardcore/proyect_hardcore_16x16.png">
+    <link rel="manifest" href="Imagenes/Logo de proyect hardcore/site.webmanifest">
+
+    <!-- AGREGUE EL H1 -->
+    <h1>BIENVENID@! a Proyect Hardcore Team</h1>
+
+    <!-- MODIFIQUE TODOS LOS FORMATOS DE LAS IMAGENES JPEG A SVG, las PNG las deje porque las necesito sin fondo -->
+
+    <!-- REPASE TODOS LOS ALTS Y AGREGUE TITLE A MIS IFRAMES -->
+
+    <!-- AGREGUE EXTENDS Y MIXING -->
+
+    <!-- VERIFIQUE EL USO DE MIS ETIQUETAS SEMANTICAS-->
+
+    
