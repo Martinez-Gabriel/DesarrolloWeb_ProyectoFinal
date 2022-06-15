@@ -14,7 +14,7 @@ main{
         @include flexbox-grid (flex, center, center);
         @include margin-padding (0px,10px);
         flex-wrap: wrap;
-        font-size: 4rem;
+        font-size: 3rem;
         color: nth($colores, 5);
     }
     .fondo-1{
