@@ -10,4 +10,7 @@ body{
     width: 100%;
     font-family: 'Play', sans-serif;
     background-image: url(../imagenes/body/fondodelapantalla.svg);
+    div .disclaimer{
+        display: none;
+    }
 }
