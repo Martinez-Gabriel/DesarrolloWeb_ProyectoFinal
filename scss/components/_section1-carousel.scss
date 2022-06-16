@@ -1,4 +1,6 @@
 //AGREGO ESTILOS A LA SECCION CAROUSEL
 .carouselstyle{
     z-index: -1;
+    flex-wrap: wrap;
+    background-color: nth($colores, 2);
 }

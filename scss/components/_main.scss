@@ -2,13 +2,13 @@
 main{
     h1{
         @include flexbox-grid (flex, center, center);
-        padding-top: 120px;
+        padding-top: 8rem;
         padding-bottom: 2px;
         margin: 0px;
-        flex-wrap: wrap;
-        font-size: 4rem;
+        font-size: 3rem;
         color: nth($colores, 5);
-        background-color: nth($colores, 1);
+        background-color: nth($colores, 2);
+        text-align: center;
     }
     h2{
         @include flexbox-grid (flex, center, center);
@@ -16,6 +16,7 @@ main{
         flex-wrap: wrap;
         font-size: 3rem;
         color: nth($colores, 5);
+        text-align: center;
     }
     .fondo-1{
         margin-bottom: 0px;

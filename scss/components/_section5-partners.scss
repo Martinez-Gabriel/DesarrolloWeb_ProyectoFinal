@@ -1,6 +1,6 @@
 //AGREGO ESTILOS A LA SECCION PARTNERS
 #partners{
-    @include margin-padding (0px,150px);;
+    @include margin-padding (0px,9rem);;
 }
 .contenedor-img-partners{
     @include flexbox-grid (flex, center, center);;

@@ -7,21 +7,24 @@ header{
      width: 100%;
      background-color: nth($colores, 3);
      border-bottom: 1px solid nth($colores, 4);
-     nav{
-         .background-header{
+    nav{
+        .navbar-toggler{
+            background-color: nth($colores, 4);
+        }
+        .background-header{
              background-color: nth($colores, 3);
              width: 100%;
              @include flexbox-grid (flex, center, center);;
-         }
-         a{
+        }
+        a{
             .btn:hover{
                  color: black;
                  background-color: nth($colores, 4)
-             }
+            }
             .btn{
                 color: nth($colores, 5);
                 border: 1px solid nth($colores, 4);
             }
-         }
-     } 
- }
+        }
+    } 
+}

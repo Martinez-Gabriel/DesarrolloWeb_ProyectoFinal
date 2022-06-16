@@ -1,6 +1,6 @@
 //AGREGO ESTILOS A LA SECCION GAMING HOUSE
 #gaminghouse{
-    @include margin-padding (0px,150px);;
+    @include margin-padding (0px,9rem);;
 }
 .gaminghouse{
     @include flexbox-grid (flex, center, center);;
@@ -11,6 +11,7 @@
     @include margin-padding (20px,0px);
     border-radius: 25px;
     border: 2px solid nth($colores, 5);
+    
 }
 .iframe:hover{
     @extend %animacion;

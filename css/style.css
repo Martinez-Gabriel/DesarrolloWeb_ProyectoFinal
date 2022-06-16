@@ -7,8 +7,7 @@ body {
   width: 100%;
   font-family: 'Play', sans-serif;
   background-image: url(../imagenes/body/fondodelapantalla.svg); }
-  
-  .disclaimer {
+  body div .disclaimer {
     display: none !important; }
 
 header {
@@ -20,6 +19,8 @@ header {
   width: 100%;
   background-color: #090a11;
   border-bottom: 1px solid #653d8f; }
+  header nav .navbar-toggler {
+    background-color: #653d8f; }
   header nav .background-header {
     background-color: #090a11;
     width: 100%;
@@ -37,13 +38,13 @@ main h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 8rem;
   padding-bottom: 2px;
   margin: 0px;
-  flex-wrap: wrap;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #d8c9e8;
-  background-color: #0d0f26; }
+  background-color: #060713;
+  text-align: center; }
 
 main h2 {
   display: flex;
@@ -53,7 +54,8 @@ main h2 {
   padding: 10px;
   flex-wrap: wrap;
   font-size: 3rem;
-  color: #d8c9e8; }
+  color: #d8c9e8;
+  text-align: center; }
 
 main .fondo-1 {
   margin-bottom: 0px; }
@@ -65,17 +67,19 @@ main .fondo-2 {
   margin-bottom: 10px; }
 
 .carouselstyle {
-  z-index: -1; }
+  z-index: -1;
+  flex-wrap: wrap;
+  background-color: #060713; }
 
 #streamers {
   margin: 0px;
-  padding: 150px; }
+  padding: 9rem; }
 
 .contenedor-img-streamers {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin: 20px;
   padding: 0px;
   flex-wrap: wrap; }
 
@@ -89,22 +93,22 @@ main .fondo-2 {
 
 #esport {
   margin: 0px;
-  padding: 150px; }
+  padding: 9rem; }
 
 .contenedor-img-juego {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin: 0px;
   padding: 0px;
   flex-wrap: wrap; }
 
 .img-juegos {
   margin: 100px;
   padding: 0px;
-  width: 370px;
+  width: 340px;
   height: 215px;
-  border-radius: 25px;
+  border-radius: 10px;
   border: 2px solid #060713; }
 
 .contenedor-img-jugadores {
@@ -124,7 +128,7 @@ main .fondo-2 {
 
 #gaminghouse {
   margin: 0px;
-  padding: 150px; }
+  padding: 9rem; }
 
 .gaminghouse {
   display: flex;
@@ -142,7 +146,7 @@ main .fondo-2 {
 
 #partners {
   margin: 0px;
-  padding: 150px; }
+  padding: 9rem; }
 
 .contenedor-img-partners {
   display: flex;
