@@ -7,8 +7,6 @@ body {
   width: 100%;
   font-family: 'Play', sans-serif;
   background-image: url(../imagenes/body/fondodelapantalla.svg); }
-  body .disclaimer {
-    display: none; }
 
 header {
   margin: 0%;
@@ -207,3 +205,6 @@ footer {
 .img-streamers:hover, .img-jugadores:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover {
   transform: scale(1.1);
   transition: all 0.2s; }
+
+.disclaimer {
+  display: none; }

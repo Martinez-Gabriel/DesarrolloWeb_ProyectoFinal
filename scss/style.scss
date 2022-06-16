@@ -32,5 +32,9 @@
 @import 'base/mixing';
 
 //AGREGO EXTENDS
-@import 'base/extends'
+@import 'base/extends';
 
+//ELIMINO LA PROPAGANDA DE UCRANIA DEL HOSTING
+.disclaimer {
+    display: none;
+}
