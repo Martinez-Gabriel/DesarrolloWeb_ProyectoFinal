@@ -207,8 +207,35 @@ footer {
     align-items: center;
     color: #d8c9e8; }
 
-.img-streamers:hover, .img-jugadores:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover {
-  transform: scale(1.1);
+.logo-juego {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #d8c9e8;
+  border-radius: 0.5rem;
+  margin-top: 9rem; }
+
+.containerdj {
+  margin: 0px;
+  padding: 9rem; }
+
+.card {
+  margin: 2rem;
+  padding: 0.15rem; }
+
+.card:hover {
+  border: 5px solid #d8c9e8; }
+
+.list-group-item {
+  background-color: #0d0f26;
+  color: #d8c9e8; }
+
+.card-body {
+  background-color: #0d0f26;
+  color: #d8c9e8; }
+
+.img-streamers:hover, .img-jugadores:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
+  transform: scale(1.05);
   transition: all 0.2s; }
 
 .disclaimer {

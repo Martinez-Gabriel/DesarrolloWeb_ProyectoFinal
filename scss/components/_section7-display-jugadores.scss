@@ -1,0 +1,23 @@
+
+.containerdj{
+    @include margin-padding (0px,9rem);
+}
+
+.card{
+    @include margin-padding (2rem,0.15rem);
+}
+
+.card:hover {
+    @extend %animacion;
+    border: 5px solid nth($colores, 5);
+}
+
+.list-group-item{
+    background-color: nth($colores, 1);
+    color: nth($colores, 5);
+}
+
+.card-body{
+    background-color: nth($colores, 1);
+    color: nth($colores, 5);
+}
