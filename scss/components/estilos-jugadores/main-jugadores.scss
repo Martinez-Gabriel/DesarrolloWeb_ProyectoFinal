@@ -1,0 +1,11 @@
+.main-jugadores{
+    background-color: nth($colores, 1);
+}
+
+.h2-display-jugadores{
+    margin-top: 8rem;
+    font-size: 3rem;
+    color: nth($colores, 5);
+    text-align: center;
+    
+}

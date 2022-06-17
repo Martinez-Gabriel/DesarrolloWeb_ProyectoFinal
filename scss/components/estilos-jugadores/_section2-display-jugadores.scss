@@ -1,6 +1,6 @@
 
-.containerdj{
-    @include margin-padding (0px,9rem);
+.container-dj{
+    @include margin-padding (0px,0rem);
 }
 
 .card{
@@ -9,15 +9,15 @@
 
 .card:hover {
     @extend %animacion;
-    border: 5px solid nth($colores, 5);
+    border: 5px solid nth($colores, 1);
 }
 
 .list-group-item{
-    background-color: nth($colores, 1);
+    background-color: nth($colores, 2);
     color: nth($colores, 5);
 }
 
 .card-body{
-    background-color: nth($colores, 1);
+    background-color: nth($colores, 2);
     color: nth($colores, 5);
 }

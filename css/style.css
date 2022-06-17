@@ -182,6 +182,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
     flex-wrap: wrap;
     bottom: 0; }
   footer section .contenedor-img-nuestras-redes {
@@ -211,28 +213,43 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+  padding: 0px;
   border: 5px solid #d8c9e8;
-  border-radius: 0.5rem;
-  margin-top: 9rem; }
+  border-radius: 0.5rem; }
 
-.containerdj {
+.container-lj {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container-dj {
   margin: 0px;
-  padding: 9rem; }
+  padding: 0rem; }
 
 .card {
   margin: 2rem;
   padding: 0.15rem; }
 
 .card:hover {
-  border: 5px solid #d8c9e8; }
+  border: 5px solid #0d0f26; }
 
 .list-group-item {
-  background-color: #0d0f26;
+  background-color: #060713;
   color: #d8c9e8; }
 
 .card-body {
-  background-color: #0d0f26;
+  background-color: #060713;
   color: #d8c9e8; }
+
+.main-jugadores {
+  background-color: #0d0f26; }
+
+.h2-display-jugadores {
+  margin-top: 8rem;
+  font-size: 3rem;
+  color: #d8c9e8;
+  text-align: center; }
 
 .img-streamers:hover, .img-jugadores:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
   transform: scale(1.05);

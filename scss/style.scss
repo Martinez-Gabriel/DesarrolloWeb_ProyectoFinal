@@ -26,10 +26,13 @@
 @import 'components/footer';
 
 //AGREGO ESTILOS A LA SECCION LOGO-JUEGO
-@import 'components/section6-logo-juego';
+@import 'components/estilos-jugadores/section1-logo-juego';
 
 //AGREGO ESTILOS A LA SECCION DISPLAY-JUGADORES
-@import 'components/section7-display-jugadores';
+@import 'components/estilos-jugadores/section2-display-jugadores';
+
+//AGREGO ESTILOS A LA SECCION MAIN-JUGADORES
+@import 'components/estilos-jugadores/main-jugadores.scss';
 
 //AGREGO LISTAS
 @import 'base/listas';

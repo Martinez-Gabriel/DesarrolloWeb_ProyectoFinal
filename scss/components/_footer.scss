@@ -5,6 +5,7 @@ footer{
     section{
         .nuestras-redes{
             @include flexbox-grid (flex, center, center);
+            @include margin-padding (0px,0px);
             flex-wrap: wrap;
             bottom: 0;
         }
