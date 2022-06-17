@@ -90,10 +90,11 @@ main .fondo-2 {
   border: 2px solid #d8c9e8; }
 
 #esport {
-  margin: 0px;
-  padding: 9rem; }
+  padding-top: 9rem;
+  padding-bottom: 2rem; }
 
 .contenedor-img-juego {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,11 +103,10 @@ main .fondo-2 {
   flex-wrap: wrap; }
 
 .img-juegos {
-  margin: 100px;
+  margin: 2rem;
   padding: 0px;
-  width: 340px;
-  height: 215px;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 1rem;
   border: 2px solid #060713; }
 
 .contenedor-img-jugadores {
@@ -251,7 +251,7 @@ footer {
   color: #d8c9e8;
   text-align: center; }
 
-.img-streamers:hover, .img-jugadores:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
+.img-streamers:hover, .img-juegos:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
   transform: scale(1.05);
   transition: all 0.2s; }
 
