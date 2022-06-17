@@ -2,12 +2,10 @@
 main{
     h1{
         @include flexbox-grid (flex, center, center);
-        padding-top: 8rem;
         padding-bottom: 2px;
         margin: 0px;
         font-size: 3rem;
         color: nth($colores, 5);
-        background-color: nth($colores, 2);
         text-align: center;
     }
     h2{
@@ -26,5 +24,10 @@ main{
         background-size: cover;
         background-attachment: fixed;
         margin-bottom: 10px;
+    }
+    .h1-paginas-secundarias{
+        background: none;
+        margin-top: 1rem;
+        padding: 0px;
     }
 }
