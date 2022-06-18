@@ -14,7 +14,7 @@ header{
         .background-header{
              background-color: nth($colores, 3);
              width: 100%;
-             @include flexbox-grid (flex, center, center);;
+             @include flexbox-grid (flex, center, center);
         }
         a{
             .btn:hover{

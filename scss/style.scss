@@ -10,17 +10,20 @@
 //AGREGO ESTILOS AL CAROUSEL
 @import 'components/section1-carousel';
 
-//AGREGO ESTILOS A LA SECCION STREAMERS
-@import 'components/section2-streamers';
-
-//AGREGO ESTILOS A LA SECCION EQUIPOS E-SPORTS
-@import 'components/section3-esports';
+//AGREGO ESTILOS A LA SECCION PRESENTACION
+@import 'components/section2-presentacion';
 
 //AGREGO ESTILOS A LA SECCION GAMING HOUSE
-@import 'components/section4-gamingh';
+@import 'components/section3-gamingh';
+
+//AGREGO ESTILOS A LA SECCION STREAMERS
+@import 'components/section4-streamers';
+
+//AGREGO ESTILOS A LA SECCION E-SPORT
+@import 'components/section5-esports';
 
 //AGREGO ESTILOS A LA SECCION PARTNERS
-@import 'components/section5-partners';
+@import 'components/section6-partners';
 
 //AGREGO ESTILOS AL FOOTER
 @import 'components/footer';

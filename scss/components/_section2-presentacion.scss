@@ -1,0 +1,78 @@
+//DESKTOP FIRST
+.container-videos{
+    @include flexbox-grid (flex, center, center);
+    background-color: nth($colores, 2);
+    flex-wrap: wrap;
+}
+
+.estilo-videos{
+    @include margin-padding (1rem,0px);
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    border: 2px solid nth($colores, 5);
+    width: 60%;
+
+}
+
+.container-p{
+    @include flexbox-grid (flex, center, center);
+    @include margin-padding (3rem,0rem);
+    margin-top: 4rem;
+    width: 40%;
+}
+
+.estilo-p{
+    color: nth($colores, 5);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+//MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
+@media (min-width: 701px) and (max-width: 991px){
+    .estilo-videos{
+        @include margin-padding (1rem,0px);
+        margin-bottom: 4rem;
+        border-radius: 2rem;
+        border: 2px solid nth($colores, 5);
+        width: 80%;
+    }
+    
+    .container-p{
+        @include flexbox-grid (flex, center, center);
+        @include margin-padding (1rem,1rem);
+        margin-top: 4rem;
+        width: 50%;
+    }
+    
+    .estilo-p{
+        color: nth($colores, 5);
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
+@media (min-width: 300px) and (max-width: 700px){
+
+    .estilo-videos{
+        @include margin-padding (30px,0px);
+        margin-bottom: 4rem;
+        border-radius: 2rem;
+        border: 2px solid nth($colores, 5);
+        width: 90%;
+    }
+
+    .container-p{
+        @include flexbox-grid (flex, center, center);
+        @include margin-padding (1rem,1rem);
+        margin-top: 4rem;
+        width: 100%;
+    }
+    
+    .estilo-p{
+        color: nth($colores, 5);
+        font-size: 1rem;
+        text-align: center;
+    }
+}

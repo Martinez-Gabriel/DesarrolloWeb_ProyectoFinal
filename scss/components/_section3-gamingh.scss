@@ -1,9 +1,9 @@
 //AGREGO ESTILOS A LA SECCION GAMING HOUSE
 #gaminghouse{
-    @include margin-padding (0px,9rem);;
+    @include margin-padding (0px,2rem);
 }
 .gaminghouse{
-    @include flexbox-grid (flex, center, center);;
+    @include flexbox-grid (flex, center, center);
     @include margin-padding (0px,40px);
     flex-wrap: wrap;
 }

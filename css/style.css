@@ -37,8 +37,8 @@ main h1 {
   justify-content: center;
   align-items: center;
   padding-bottom: 2px;
-  margin: 0px;
-  font-size: 3rem;
+  margin-top: 9rem;
+  font-size: 3.5rem;
   color: #d8c9e8;
   text-align: center; }
 
@@ -67,10 +67,169 @@ main .h1-paginas-secundarias {
   margin-top: 1rem;
   padding: 0px; }
 
+@media (min-width: 701px) and (max-width: 991px) {
+  main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    color: #d8c9e8;
+    text-align: center; }
+  main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    color: #d8c9e8;
+    text-align: center; }
+  main .h1-paginas-secundarias {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    font-size: 3rem; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: #d8c9e8;
+    text-align: center; }
+  main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    color: #d8c9e8;
+    text-align: center; }
+  main .h1-paginas-secundarias {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    margin-top: 0rem;
+    font-size: 2.5rem; } }
+
 .carouselstyle {
   z-index: -1;
   flex-wrap: wrap;
   background-color: #060713; }
+
+.logo-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 6rem;
+  display: none; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  .logo-mobile {
+    display: block; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .logo-mobile {
+    display: block; } }
+
+.container-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #060713;
+  flex-wrap: wrap; }
+
+.estilo-videos {
+  margin: 1rem;
+  padding: 0px;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  border: 2px solid #d8c9e8;
+  width: 60%; }
+
+.container-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  padding: 0rem;
+  margin-top: 4rem;
+  width: 40%; }
+
+.estilo-p {
+  color: #d8c9e8;
+  font-size: 2rem;
+  text-align: center; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  .estilo-videos {
+    margin: 1rem;
+    padding: 0px;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    border: 2px solid #d8c9e8;
+    width: 80%; }
+  .container-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 50%; }
+  .estilo-p {
+    color: #d8c9e8;
+    font-size: 1.5rem;
+    text-align: center; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .estilo-videos {
+    margin: 30px;
+    padding: 0px;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    border: 2px solid #d8c9e8;
+    width: 90%; }
+  .container-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 100%; }
+  .estilo-p {
+    color: #d8c9e8;
+    font-size: 1rem;
+    text-align: center; } }
+
+#gaminghouse {
+  margin: 0px;
+  padding: 2rem; }
+
+.gaminghouse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 40px;
+  flex-wrap: wrap; }
+
+.iframe {
+  margin: 20px;
+  padding: 0px;
+  border-radius: 25px;
+  border: 2px solid #d8c9e8; }
 
 #streamers {
   margin: 0px;
@@ -91,6 +250,16 @@ main .h1-paginas-secundarias {
   height: 200px;
   border-radius: 25px;
   border: 2px solid #d8c9e8; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  #streamers {
+    margin: 0px;
+    padding: 7rem; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #streamers {
+    margin: 0px;
+    padding: 6rem; } }
 
 #esport {
   padding-top: 9rem;
@@ -126,24 +295,6 @@ main .h1-paginas-secundarias {
   border-radius: 25px;
   width: 100px;
   height: 100px; }
-
-#gaminghouse {
-  margin: 0px;
-  padding: 9rem; }
-
-.gaminghouse {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  padding: 40px;
-  flex-wrap: wrap; }
-
-.iframe {
-  margin: 20px;
-  padding: 0px;
-  border-radius: 25px;
-  border: 2px solid #d8c9e8; }
 
 #partners {
   margin: 0px;
@@ -248,13 +399,14 @@ footer {
 .main-jugadores {
   background-color: #0d0f26; }
 
-.h2-display-jugadores {
-  margin-top: 8rem;
+.h1-display-jugadores {
+  padding-top: 7rem;
+  margin-top: 2rem;
   font-size: 3rem;
   color: #d8c9e8;
   text-align: center; }
 
-.img-streamers:hover, .img-juegos:hover, .iframe:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
+.iframe:hover, .img-streamers:hover, .img-juegos:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
   transform: scale(1.05);
   transition: all 0.2s; }
 

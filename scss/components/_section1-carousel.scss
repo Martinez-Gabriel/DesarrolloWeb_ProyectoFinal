@@ -1,6 +1,29 @@
-//AGREGO ESTILOS A LA SECCION CAROUSEL
+//DESKTOP FIRST
 .carouselstyle{
     z-index: -1;
     flex-wrap: wrap;
     background-color: nth($colores, 2);
+}
+
+.logo-mobile{
+    @include flexbox-grid (flex, center, center);
+    @include margin-padding (0px,0px);
+    margin-top: 6rem;
+    display: none;
+}
+
+
+//MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
+@media (min-width: 701px) and (max-width: 991px){
+    .logo-mobile{
+        display: block;
+    }
+}
+
+
+//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
+@media (min-width: 300px) and (max-width: 700px){
+    .logo-mobile{
+        display: block;
+    }
 }
