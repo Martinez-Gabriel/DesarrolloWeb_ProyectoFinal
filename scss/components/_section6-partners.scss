@@ -27,3 +27,17 @@
 .img-partners:hover{
     @extend %animacion;
 }
+
+//MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
+@media (min-width: 701px) and (max-width: 991px){
+    #partners{
+        @include margin-padding (0px,7rem);;
+    }
+}
+
+//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
+@media (min-width: 300px) and (max-width: 700px){
+    #partners{
+        @include margin-padding (0px,6rem);;
+    }
+}

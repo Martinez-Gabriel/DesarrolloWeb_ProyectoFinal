@@ -8,5 +8,24 @@
     font-size: 3rem;
     color: nth($colores, 5);
     text-align: center;
-    
+}
+
+//MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
+@media (min-width: 701px) and (max-width: 991px){
+    .h1-display-jugadores{
+        padding-top: 5rem;
+        font-size: 3rem;
+        color: nth($colores, 5);
+        text-align: center;
+    }
+}
+
+//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
+@media (min-width: 300px) and (max-width: 700px){
+    .h1-display-jugadores{
+        padding-top: 4rem;
+        font-size: 2rem;
+        color: nth($colores, 5);
+        text-align: center;
+    }
 }

@@ -114,11 +114,14 @@ main .h1-paginas-secundarias {
     color: #d8c9e8;
     text-align: center; }
   main .h1-paginas-secundarias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
     padding: 0px;
+    flex-wrap: wrap;
     background: none;
-    margin-top: 0rem;
-    font-size: 2.5rem; } }
+    font-size: 2rem; } }
 
 .carouselstyle {
   z-index: -1;
@@ -262,8 +265,9 @@ main .h1-paginas-secundarias {
     padding: 6rem; } }
 
 #esport {
-  padding-top: 9rem;
-  padding-bottom: 2rem; }
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10rem; }
 
 .contenedor-img-juego {
   width: 80%;
@@ -295,6 +299,34 @@ main .h1-paginas-secundarias {
   border-radius: 25px;
   width: 100px;
   height: 100px; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  #esport {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 7rem; }
+  .contenedor-img-juego {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0px;
+    flex-wrap: wrap; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #esport {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 6rem; }
+  .contenedor-img-juego {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap; } }
 
 #partners {
   margin: 0px;
@@ -329,6 +361,16 @@ main .h1-paginas-secundarias {
   height: 200px;
   border-radius: 25px;
   border: 2px solid #060713; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  #partners {
+    margin: 0px;
+    padding: 7rem; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #partners {
+    margin: 0px;
+    padding: 6rem; } }
 
 footer {
   background-color: #090a11; }
@@ -396,6 +438,12 @@ footer {
   background-color: #060713;
   color: #d8c9e8; }
 
+@media (min-width: 300px) and (max-width: 700px) {
+  .card {
+    margin: 2rem;
+    padding: 0.15rem;
+    width: 30%; } }
+
 .main-jugadores {
   background-color: #0d0f26; }
 
@@ -405,6 +453,20 @@ footer {
   font-size: 3rem;
   color: #d8c9e8;
   text-align: center; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  .h1-display-jugadores {
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: #d8c9e8;
+    text-align: center; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .h1-display-jugadores {
+    padding-top: 4rem;
+    font-size: 2rem;
+    color: #d8c9e8;
+    text-align: center; } }
 
 .iframe:hover, .img-streamers:hover, .img-juegos:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
   transform: scale(1.05);

@@ -21,3 +21,11 @@
     background-color: nth($colores, 2);
     color: nth($colores, 5);
 }
+
+//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
+@media (min-width: 300px) and (max-width: 700px){
+    .card{
+        @include margin-padding (2rem,0.15rem);
+        width: 30%;
+    }
+}

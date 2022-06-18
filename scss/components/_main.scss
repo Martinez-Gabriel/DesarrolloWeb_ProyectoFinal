@@ -77,10 +77,12 @@ main{
             text-align: center;
         }
         .h1-paginas-secundarias{
+            @include flexbox-grid (flex, center, center);
             @include margin-padding (0px,0px);
+            flex-wrap: wrap;
             background: none;
-            margin-top: 0rem;
-            font-size:2.5rem;
+            font-size:2rem;
+
         }
     }
 }

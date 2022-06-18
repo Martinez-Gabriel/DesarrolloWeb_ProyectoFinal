@@ -1,8 +1,7 @@
 //DESKTOP FIRST
 #esport{
-    // @include margin-padding (0px,9rem);
-    padding-top: 9rem;
-    padding-bottom: 2rem;
+    @include margin-padding (0px,0px);
+    padding-top: 10rem;
 }
 .contenedor-img-juego {
     width: 80%;
@@ -34,9 +33,31 @@
 
 //MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
 @media (min-width: 701px) and (max-width: 991px){
+    #esport{
+        @include margin-padding (0px,0px);
+        padding-top: 7rem;
+
+    }
+    .contenedor-img-juego {
+        width: 80%;
+        @include flexbox-grid (flex, center, center);
+        @include margin-padding (1rem,0px);
+        flex-wrap: wrap;
+    }
 }
 
 
 //MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
 @media (min-width: 300px) and (max-width: 700px){
+    #esport{
+        @include margin-padding (0px,0px);
+        padding-top: 6rem;
+
+    }
+    .contenedor-img-juego {
+        width: 80%;
+        @include flexbox-grid (flex, center, center);
+        @include margin-padding (0px,0px);
+        flex-wrap: wrap;
+    }
 }
