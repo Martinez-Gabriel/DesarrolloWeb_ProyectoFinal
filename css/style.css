@@ -500,7 +500,7 @@ footer {
   color: #d8c9e8; }
 
 .a-style:hover {
-  color: #d8c9e8; }
+  color: #653d8f; }
 
 .h1-contactanos {
   text-shadow: 5px 5px 10px #090a11; }
@@ -514,7 +514,6 @@ footer {
   display: inline-block; }
 
 main section {
-  min-height: 100vh;
   margin: 0rem;
   padding: 0rem; }
   main section form {

@@ -5,7 +5,8 @@
 }
 
 .a-style:hover{
-    color: nth($colores, 5);
+    color: nth($colores, 4);
+    
 }
 
 .h1-contactanos{
@@ -23,7 +24,6 @@
 
 main{
     section{
-        min-height: 100vh;
         @include margin-padding (0rem,0rem);
         form{
             display: flex;
