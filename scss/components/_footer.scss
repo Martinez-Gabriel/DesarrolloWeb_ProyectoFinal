@@ -2,6 +2,8 @@
 
 footer{
     background-color: nth($colores, 3);
+    width: 100%;
+    margin-top: auto;
     section{
         .nuestras-redes{
             @include flexbox-grid (flex, center, center);

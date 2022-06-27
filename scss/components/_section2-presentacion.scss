@@ -25,6 +25,7 @@
     color: nth($colores, 5);
     font-size: 2rem;
     text-align: center;
+    text-shadow: 5px 5px 10px nth($colores , 4);
 }
 
 
@@ -49,6 +50,7 @@
         color: nth($colores, 5);
         font-size: 1.5rem;
         text-align: center;
+        text-shadow: 5px 5px 10px nth($colores , 4);
     }
 }
 
@@ -74,5 +76,6 @@
         color: nth($colores, 5);
         font-size: 1rem;
         text-align: center;
+        text-shadow: 2px 2px 10px nth($colores , 4);
     }
 }

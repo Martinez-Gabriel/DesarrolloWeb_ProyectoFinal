@@ -1,0 +1,48 @@
+//DESKTOP FIRST
+.a-style{
+    text-decoration: none;
+    color: nth($colores, 5);
+}
+
+.a-style:hover{
+    color: nth($colores, 5);
+}
+
+.h1-contactanos{
+    text-shadow: 5px 5px 10px nth($colores , 3);
+}
+
+.button-style{
+    color: nth($colores, 5);
+    background-color: nth($colores, 1);
+    border-radius: 5px;
+}
+.form-control{
+    display: inline-block;
+}
+
+main{
+    section{
+        @include margin-padding (0px,0rem);
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+}
+
+//MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
+@media (min-width:701px) and (max-width:991px){
+    .section-form{
+        @include margin-padding (0px,7rem);
+    }
+}
+
+//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
+@media (min-width: 300px) and (max-width: 700px){
+    .section-form{
+        @include margin-padding (0px,6rem);
+    }
+}

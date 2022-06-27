@@ -32,7 +32,7 @@
     
     <!-- AGREGO CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <title>PROYECT HARDCORE TEAM | Conteniendo a los mejores Streamers</title>
+    <title>PROYECT HARDCORE TEAM | Formulario de inscripcion</title>
 
     <!-- ICONOS CON FAVICOM -->
     <link rel="apple-touch-icon" sizes="180x180" href="../imagenes/logo de proyect hardcore/apple-touch-icon.png">
@@ -52,7 +52,7 @@
                 <a class="navbar-brand d-flex justify-content-center" href="../index.html"><img src="../imagenes/proyect-hardcore-100x100px.png" alt="logo de proyect hardcore"></a>
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link d-flex justify-content-center" href="#"><button type="button" class="btn btn:hover">Streamers</button></a>
+                    <a class="nav-link d-flex justify-content-center" href="streamers.html"><button type="button" class="btn btn:hover">Streamers</button></a>
                   </li>
                   <li class="nav-item d-flex justify-content-center">
                     <a class="nav-link" href="equipos-esport.html"><button type="button" class="btn btn:hover">Equipo E-Sport</button></a>
@@ -61,7 +61,8 @@
                     <a class="nav-link" href="partners.html"><button type="button" class="btn btn:hover">Partners</button></a>
                   </li>
                   <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link" href="contactanos.html"><button type="button" class="btn btn:hover">Contactanos</button></a>
+                    <a class="nav-link" href="#"><button type="button" class="btn btn:hover">Contactanos</button></a>
+                  </li>
                   <li class="nav-item d-flex justify-content-center">
                     <a class="nav-link" href="#nuestras-redes"><button type="button" class="btn btn:hover">Nuestras redes</button></a>
                   </li>
@@ -74,23 +75,37 @@
 
     <!-- INICIO MAIN -->
     <main>
-
-      <!-- SECCION STREAMERS OFICIALES -->
-      <section id="streamers">
-        <h1 class="h1-paginas-secundarias">STREAMERS OFICIALES</h1>
-        <div class="contenedor-img-streamers" >
-          <div class="columna1" >    
-              <a href="https://twitch.tv/shroud" target="_blank" rel="noopener noreferrer"><img class="img-streamers" src="../imagenes/streamer/shroud.svg" alt="logo shroud"></a>
-              <a href="https://twitch.tv/ninja" target="_blank" rel="noopener noreferrer"><img class="img-streamers" src="../imagenes/streamer/ninja.svg" alt="logo ninja"></a>
-              <a href="https://twitch.tv/lolitofdezbol" target="_blank" rel="noopener noreferrer"><img class="img-streamers" src="../imagenes/streamer/lolito.svg" alt="logo lolito"></a>
-          </div>
-          <div class="columna2" >
-              <a href="https://twitch.tv/baxbeast" target="_blank" rel="noopener noreferrer"><img class="img-streamers" src="../imagenes/streamer/baxbeast.svg" alt="logo baxbeast"></a>
-              <a href="https://twitch.tv/lvndmark" target="_blank" rel="noopener noreferrer"><img class="img-streamers" src="../imagenes/streamer/lvdnmark.svg" alt="logo lvdnmark"></a>
-              <a href="https://twitch.tv/lvndmark" target="_blank" rel="noopener noreferrer"><img class="img-streamers" src="../imagenes/streamer/lvdnmark.svg" alt="logo lvdnmark"></a>
-          </div>
-          </div>
-      </section>
+        <!-- SECCION FORMULARIO -->
+        <section class="section-form">
+            <h1 class="h1-contactanos">Ingrese sus datos para poder contactarnos...!</h1>
+            <form>
+              <div>  
+              <div class="input-roup mbg-3 ">
+                        <label for="iname" class="form-label"></label>
+                        <input id="iname" type="text" name="name" class="form-control" placeholder="Ingrese su nombre">
+                        
+                        <label for="isubname" class="form-label"></label>
+                        <input id="isubname" type="text" name="subname" class="form-control" placeholder="Ingrese su apellido">
+                </div>
+                <div class="mb-3">
+                  <label for="itelefono" class="form-label"></label>
+                  <input id="itelefono" type="number" name="tel" class="form-control" placeholder="(Codigo de Area, Numero)">
+                </div>
+                <div class="mb-3">
+                    <label for="iemail" class="form-label"></label>
+                    <input id="iemail" type="email" name="email" class="form-control" placeholder="@Mail.com">
+                </div>
+                  
+                <div class="mb-3">
+                    <label for="itextarea" class="form-label"></label>
+                    <textarea id="itextarea" name="textarea" class="form-control" placeholder="Dejenos su comentario" rows="3"></textarea>
+                </div>
+                <div>
+                  <button class="button-style"><a class="a-style" href="https://proyecthardcore.000webhostapp.com/pages/correcto.html">Enviar</a></button>
+                </div>
+              </div>
+            </form>
+        </section>
     </main>
     <!-- FIN MAIN -->
     <!-- INICIO FOOTER -->

@@ -17,25 +17,31 @@
 @import 'components/section3-gamingh';
 
 //AGREGO ESTILOS A LA SECCION STREAMERS
-@import 'components/section4-streamers';
+@import 'components/pages-styles/streamers';
 
 //AGREGO ESTILOS A LA SECCION E-SPORT
-@import 'components/section5-esports';
+@import 'components/pages-styles/equipo-esports';
 
 //AGREGO ESTILOS A LA SECCION PARTNERS
-@import 'components/section6-partners';
+@import 'components/pages-styles/partners';
 
 //AGREGO ESTILOS AL FOOTER
 @import 'components/footer';
 
 //AGREGO ESTILOS A LA SECCION LOGO-JUEGO
-@import 'components/estilos-jugadores/section1-logo-juego';
+@import 'components/jugadores-html-styles/section1-logo-juego';
 
 //AGREGO ESTILOS A LA SECCION DISPLAY-JUGADORES
-@import 'components/estilos-jugadores/section2-display-jugadores';
+@import 'components/jugadores-html-styles/section2-display-jugadores';
 
 //AGREGO ESTILOS A LA SECCION MAIN-JUGADORES
-@import 'components/estilos-jugadores/main-jugadores.scss';
+@import 'components/jugadores-html-styles/main-jugadores.scss';
+
+//AGREGO ESTILOS A CORRECTO-HMTL
+@import 'components/pages-styles/correcto-html';
+
+//AGREGO ESTILOS A CONTACTANOS-HMTL
+@import 'components/pages-styles/contactanos-html';
 
 //AGREGO LISTAS
 @import 'base/listas';

@@ -4,9 +4,11 @@ body {
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
-  width: 100%;
   font-family: 'Play', sans-serif;
-  background-image: url(../imagenes/body/fondodelapantalla.svg); }
+  background-image: url(../imagenes/body/fondodelapantalla.svg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 header {
   margin: 0%;
@@ -40,7 +42,8 @@ main h1 {
   margin-top: 9rem;
   font-size: 3.5rem;
   color: #d8c9e8;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 2px 2px 10px #653d8f; }
 
 main h2 {
   display: flex;
@@ -51,7 +54,8 @@ main h2 {
   flex-wrap: wrap;
   font-size: 3rem;
   color: #d8c9e8;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 2px 2px 10px #060713; }
 
 main .fondo-1 {
   margin-bottom: 0px; }
@@ -65,7 +69,8 @@ main .fondo-2 {
 main .h1-paginas-secundarias {
   background: none;
   margin-top: 1rem;
-  padding: 0px; }
+  padding: 0px;
+  text-shadow: 2px 2px 10px #060713; }
 
 @media (min-width: 701px) and (max-width: 991px) {
   main h1 {
@@ -76,7 +81,8 @@ main .h1-paginas-secundarias {
     padding: 1rem;
     font-size: 3rem;
     color: #d8c9e8;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 2px 2px 10px #653d8f; }
   main h2 {
     display: flex;
     justify-content: center;
@@ -86,12 +92,14 @@ main .h1-paginas-secundarias {
     flex-wrap: wrap;
     font-size: 2.5rem;
     color: #d8c9e8;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 2px 2px 10px #060713; }
   main .h1-paginas-secundarias {
     margin: 0px;
     padding: 0px;
     background: none;
-    font-size: 3rem; } }
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px #060713; } }
 
 @media (min-width: 300px) and (max-width: 700px) {
   main h1 {
@@ -102,7 +110,8 @@ main .h1-paginas-secundarias {
     padding: 1rem;
     font-size: 2.5rem;
     color: #d8c9e8;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 2px 2px 10px #653d8f; }
   main h2 {
     display: flex;
     justify-content: center;
@@ -112,7 +121,8 @@ main .h1-paginas-secundarias {
     flex-wrap: wrap;
     font-size: 2rem;
     color: #d8c9e8;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 2px 2px 10px #060713; }
   main .h1-paginas-secundarias {
     display: flex;
     justify-content: center;
@@ -121,7 +131,8 @@ main .h1-paginas-secundarias {
     padding: 0px;
     flex-wrap: wrap;
     background: none;
-    font-size: 2rem; } }
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px #060713; } }
 
 .carouselstyle {
   z-index: -1;
@@ -172,7 +183,8 @@ main .h1-paginas-secundarias {
 .estilo-p {
   color: #d8c9e8;
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 5px 5px 10px #653d8f; }
 
 @media (min-width: 701px) and (max-width: 991px) {
   .estilo-videos {
@@ -193,7 +205,8 @@ main .h1-paginas-secundarias {
   .estilo-p {
     color: #d8c9e8;
     font-size: 1.5rem;
-    text-align: center; } }
+    text-align: center;
+    text-shadow: 5px 5px 10px #653d8f; } }
 
 @media (min-width: 300px) and (max-width: 700px) {
   .estilo-videos {
@@ -214,7 +227,8 @@ main .h1-paginas-secundarias {
   .estilo-p {
     color: #d8c9e8;
     font-size: 1rem;
-    text-align: center; } }
+    text-align: center;
+    text-shadow: 2px 2px 10px #653d8f; } }
 
 #gaminghouse {
   margin: 0px;
@@ -373,7 +387,9 @@ main .h1-paginas-secundarias {
     padding: 6rem; } }
 
 footer {
-  background-color: #090a11; }
+  background-color: #090a11;
+  width: 100%;
+  margin-top: auto; }
   footer section .nuestras-redes {
     display: flex;
     justify-content: center;
@@ -467,6 +483,65 @@ footer {
     font-size: 2rem;
     color: #d8c9e8;
     text-align: center; } }
+
+.h1-exito {
+  margin: 40vh;
+  padding: 0rem;
+  text-shadow: 2px 2px 10px #090a11; }
+
+.section-exito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  .h1-exito {
+    margin: 40vh;
+    padding: 0rem; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .h1-exito {
+    margin: 30vh;
+    padding: 0px; } }
+
+.a-style {
+  text-decoration: none;
+  color: #d8c9e8; }
+
+.a-style:hover {
+  color: #d8c9e8; }
+
+.h1-contactanos {
+  text-shadow: 5px 5px 10px #090a11; }
+
+.button-style {
+  color: #d8c9e8;
+  background-color: #0d0f26;
+  border-radius: 5px; }
+
+.form-control {
+  display: inline-block; }
+
+main section {
+  margin: 0px;
+  padding: 0rem; }
+  main section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+
+@media (min-width: 701px) and (max-width: 991px) {
+  .section-form {
+    margin: 0px;
+    padding: 7rem; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .section-form {
+    margin: 0px;
+    padding: 6rem; } }
 
 .iframe:hover, .img-streamers:hover, .img-juegos:hover, .img-partners:hover, footer section .img-nuestras-redes:hover, .card:hover {
   transform: scale(1.05);
