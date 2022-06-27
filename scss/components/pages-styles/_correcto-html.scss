@@ -1,26 +1,11 @@
 //DESKTOP FIRST
 .h1-exito{
-    @include margin-padding (40vh,0rem);
+    @include margin-padding (10vh,0rem);
     text-shadow: 2px 2px 10px nth($colores , 3);
     
 }
 .section-exito{
     @include flexbox-grid (flex, center, center);
-    width: 100%;
-    height: 100%;
+    min-height: 100vh;
     
-}
-
-//MEDIA QUERY MIN-WIDTH 701px y MAX-WIDTH 991px
-@media (min-width:701px) and (max-width:991px){
-    .h1-exito{
-        @include margin-padding (40vh,0rem);
-    }
-}
-
-//MEDIA QUERY MIN-WIDTH 300px y MAX-WIDTH 700px
-@media (min-width: 300px) and (max-width: 700px){
-    .h1-exito{
-        @include margin-padding (30vh,0px);
-    }
 }

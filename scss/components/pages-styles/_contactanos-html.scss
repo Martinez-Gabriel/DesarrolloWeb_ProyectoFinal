@@ -23,12 +23,12 @@
 
 main{
     section{
-        @include margin-padding (0px,0rem);
+        min-height: 100vh;
+        @include margin-padding (0rem,0rem);
         form{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
         }
     }
 }
